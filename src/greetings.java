@@ -1,8 +1,7 @@
 import javax.swing.*;
-
 public class greetings {
     public static void main(String[] args){
-        String x = JOptionPane.showInputDialog("say hej");
+        String x = JOptionPane.showInputDialog("say hey");
         String[] found = x.split("");
         int y = found.length - 2;
         int z = y*2;
