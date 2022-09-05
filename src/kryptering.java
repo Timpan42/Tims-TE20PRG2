@@ -1,7 +1,7 @@
 import java.util.Scanner;
+import java.util.*;
 
 public class kryptering {
-
     public static void main(String[] args) {
         String n = "\n";
         char me = 'h';
@@ -13,11 +13,11 @@ public class kryptering {
         Scanner sc = new Scanner(System.in);
         System.out.println(n + "Skriv vad du vill" + n + ":");
         String str = sc.nextLine();
-        char[] ch = new char[str.length()];
+        char[] ch = str.toCharArray();
         for (int i = 0; i <= str.length(); i++){
-            ch[i] = str.charAt(i);
+
         }
-        System.out.println(ch[2]);
+
     }
     public static void krypt1(){
         int m = 123;
