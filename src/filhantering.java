@@ -10,26 +10,15 @@ import java.*;
 
 public class filhantering {
     public static void main(String[] args) {
-        BufferedWriter inFile = openTextFileReadning ("info.text");
-        ArrayList<String> fileContent = readAllText(inFile);
-        DataOutputStream outFile = openBinaryFileForWriting("info.dat");
-        writeTextAsBinary(fileContent);
+        BufferedWriter inFile = openTextFileReadning("intrandom.text");
+        //ArrayList<String> fileContent = readAllText(inFile);
+        //DataOutputStream outFile = openBinaryFileForWriting("info.dat");
+        //writeTextAsBinary(fileContent);
     }
 
-    private static void writeTextAsBinary(ArrayList<String> fileContent) {
-    }
+//ska läsa filen med data
+    private static BufferedWriter openTextFileReadning(String inFile) {
 
-    private static DataOutputStream openBinaryFileForWriting(String s) {
-    }
-
-    private static ArrayList<String> readAllText(BufferedWriter inFile) {
-    }
-
-    private static BufferedWriter openTextFileReadning(String fileName) {
-        BufferedReader in = null;
-        try {
-            in = new BufferedReader(in);
-
-        }
     }
 }
+
