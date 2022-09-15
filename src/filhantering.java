@@ -10,14 +10,18 @@ public class filhantering {
     public static void main(String[] args) {
         String file = "intrandom.text";
         BufferedReader inFile = openTextFileReadning(file);
-        ArrayList<String> fileContent = readAllText(inFile);
+       // ArrayList<String> fileContent = readAllText(inFile);
         //DataOutputStream outFile = openBinaryFileForWriting("info.dat");
         //writeTextAsBinary(fileContent);
     }
-
+/*
     private static ArrayList<String> readAllText(BufferedReader inFile) {
+        String x = "";
+        try {
 
-    }
+        }
+
+    }*/
 
     //ska läsa filen med data
     private static BufferedReader openTextFileReadning(String inFile) {
