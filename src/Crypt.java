@@ -38,6 +38,5 @@ public class Crypt {
     // krypteraren
     public void encrypt(String meddelande, String key){
 
-
     }
 }
